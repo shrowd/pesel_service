@@ -1,4 +1,6 @@
 package com.shrowd.pesel_service.core;
 
 public enum Gender {
+    MALE,
+    FEMALE
 }
