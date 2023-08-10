@@ -13,4 +13,8 @@ public class Pesel {
     private String pesel;
     private LocalDate birthDate;
     private Gender gender;
+
+    public Pesel(String pesel){
+        this.pesel = pesel;
+    }
 }
