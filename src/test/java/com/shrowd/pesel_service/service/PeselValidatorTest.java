@@ -2,12 +2,11 @@ package com.shrowd.pesel_service.service;
 
 import com.shrowd.pesel_service.exception.PeselException;
 import lombok.RequiredArgsConstructor;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @RequiredArgsConstructor
 class PeselValidatorTest {
