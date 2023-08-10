@@ -37,7 +37,7 @@ public class PeselDecoder {
     }
 
     public Gender extractGender(String pesel) {
-        int temp = Integer.parseInt(pesel.substring(10, 11));
+        int temp = Integer.parseInt(pesel.substring(9, 10));
         return (temp % 2) == 0 ? Gender.FEMALE : Gender.MALE;
     }
 }
