@@ -11,7 +11,7 @@ PESEL Service is a REST API that allows extracting data (date of birth and gende
 - [PESEL Validation](#pesel-validation)
 - [Project Structure](#project-structure)
 
-### Introduction
+## Introduction
 PESEL (Universal Electronic System for Population Registration) is a unique identification number assigned to every citizen of Poland. It consists of 11 digits that contain information about the date of birth, serial number, gender, and a checksum digit.
 
 ## Technologies
@@ -22,7 +22,7 @@ PESEL (Universal Electronic System for Population Registration) is a unique iden
 ## Getting Started
 1. Clone the repository:
    ```sh
-   git clone (https://github.com/shrowd/pesel_service.git)
+   git clone https://github.com/shrowd/pesel_service.git
    cd pesel-service
    ```
 2. Build the project using Maven:
